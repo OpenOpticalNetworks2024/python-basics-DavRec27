@@ -9,3 +9,4 @@ def exercise3():
     if (list[0] == list[i]):
         print("elementi uguali")
         print("no way")
+        print("again")
