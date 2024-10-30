@@ -1,4 +1,5 @@
 """Exercise Set 1: Python Basics"""
+from typing import List, Any
 
 import numpy as np
 import matplotlib as plt
@@ -9,19 +10,37 @@ import matplotlib as plt
 
 # ex1
 def exercise1():
-    pass
+    num1 = int(input("inserisci un numero:"))
+    num2 = int(input("inserisci il secondo numero:"))
+
+    product = (num1 * num2)
+    print(f"il prodotto è {product}")
+    if product>100:
+        sum = num1 + num2
+        print(f"la somma è {sum}")
 
 
 # ex2
-def exercise2():
-    pass
+#def exercise2():
+ #   previous_num = 0
+
+#    for current_num in range(start, end + 1):
+#        somma = current_num + previous_num
+
+#        print(f"La somma di {current_num} e {previous_num} è {somma}")
+
+ #       previous_num = current_num
+ #   pass
 
 
 # ex3
 def exercise3():
-    pass
-
-
+    list = []
+    i = int(input("inserisci un numero:"))
+    for j in range(0,i):
+        list.append[j] =int(input("inserisci elemento lista:"))
+    if (list[0] == list[i]):
+        print("elementi uguali")
 # ex4
 def exercise4():
     pass
